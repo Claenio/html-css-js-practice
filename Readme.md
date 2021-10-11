@@ -1,2 +1,1 @@
-just a test abot repository
-first commit
+# just a test about repository

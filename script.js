@@ -1,4 +1,13 @@
 var clok = setInterval(clock, 1000)
+
+function setname(){
+    document.getElementById("idIlb").style.display = "none";
+    document.getElementById("idcontainer").style.display = "block";
+    var uname = document.getElementById("pname")
+    const fname = uname.value
+    document.getElementById("nmy").innerHTML ="Hey there! "+fname+"."
+}/*FUNCTION SETMAME*/
+
 function clock(){
     var d = new Date();
     var h = d.getHours();
@@ -15,11 +24,10 @@ function clock(){
     }else if (h >= 0 && h <= 5){
         document.getElementById("msg").innerHTML = "Sleep time!! Now it's "
     }
-}
+}/*FUNCTIOM CLOCK*/
 clock()
 
 
 
 
-
-
+/*ALARME*/

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -5,4 +6,12 @@
 
 body{
     background-color: green;
+    font-family: Gluten, "Sans-Serif";
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
 }
